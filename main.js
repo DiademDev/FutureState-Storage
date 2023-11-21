@@ -43,35 +43,35 @@ const texts = [
 // Show the first 5 coordsButtons when the first picto is clicked
 pictos[0].addEventListener('click', () => {
     coordsButtons.forEach((button, index) => {
-        button.style.display = index < 2 ? 'block' : 'none';
+        button.style.display = index < 5 ? 'block' : 'none';
     });
 });
 
 // Show coordsButtons 5-8 when picto2 is clicked
 pictos[1].addEventListener('click', () => {
     coordsButtons.forEach((button, index) => {
-        button.style.display = index >= 2 && index < 3 ? 'block' : 'none';
+        button.style.display = index >= 5 && index < 10 ? 'block' : 'none';
     });
 });
 
 // Show coordsButtons 10-11 when picto3 is clicked
 pictos[2].addEventListener('click', () => {
     coordsButtons.forEach((button, index) => {
-        button.style.display = index >= 3 && index < 8 ? 'block' : 'none';
+        button.style.display = index >= 10 && index < 15 ? 'block' : 'none';
     });
 });
 
 // Show coordsButtons 12-16 when picto4 is clicked
 pictos[3].addEventListener('click', () => {
     coordsButtons.forEach((button, index) => {
-        button.style.display = index >= 8 && index < 11 ? 'block' : 'none';
+        button.style.display = index >= 15 && index < 19 ? 'block' : 'none';
     });
 });
 
 // Show coordsButtons 17-21 when picto4 is clicked
 pictos[4].addEventListener('click', () => {
     coordsButtons.forEach((button, index) => {
-        button.style.display = index >= 11 && index < 13 ? 'block' : 'none';
+        button.style.display = index >= 19 && index < 22 ? 'block' : 'none';
     });
 });
 
