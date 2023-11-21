@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: url('images/FutureState_storage.jpg') no-repeat left top;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #698694;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    color: #c9ff05;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    z-index: 99999999;
+}
+
+#lightPanel {
+    position: absolute;
+    background-color: #0d2425;
+    width: 400px;
+    height: 100%;
+    top: 0px;
+    left: 0%;
+    opacity: 50%;
+    z-index: 9;
+}
+
+#logo {
+    position: absolute;
+    top: 50px;
+    right: 2%;
+    opacity: 100%;
+    z-index: 999999;
+
+}
+
+.coords_but {
+    width: 50px;
+    height: 50px;
+    background: url('images/button_image.png');
+    background-size: cover;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+}
+
+.coords_but::before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('images/button_image.png');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: filter 0.2s; /* Add a transition effect for the filter property */
+}
+
+.popup {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    white-space: nowrap;
+    transform: translate(-50%, -150%);
+    left: 50%;
+}
+
+.popup-large {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    color: #b8ff05;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transform: translate(-11%, -1%);
+    left: 130%;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s;
+}
+
+/* Add styles for the new button container */
+.pictogram_grp {
+    position: fixed;
+    left: 70px; /* Adjust the left position as needed */
+    top: 180px; /* Adjust the top position as needed */
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+}
+
+/* Add styles for the new buttons */
+.picto {
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    cursor: pointer;
+    margin-bottom: 30px; /* Adjust the margin between buttons as needed */
+}
+
+.picto:hover {
+    filter: brightness(1.2); /* Increase brightness on hover */
+}
+
+.picto:hover .popup-large {
+    display: block;
+}
+
+/* Example button positions */
+.picto:nth-child(1) {
+    background-image: url('images/pictos-brand.png');
+}
+
+.picto:nth-child(2) {
+    background-image: url('images/pictos-wayfinding.png');
+}
+
+.picto:nth-child(3) {
+    background-image: url('images/pictos-landscape.png');
+}
+
+.picto:nth-child(4) {
+    background-image: url('images/pictos-facades.png');
+}
+
+.picto:nth-child(5) {
+    background-image: url('images/pictos-amenity.png');
+}
+
+.picto:nth-child(6) {
+    background-image: url('images/pictos-sustainable.png');
+}
+
+/* Styling for the imageWindow */
+.imageWindow {
+    position: relative;
+    bottom: 472px;
+    left: -472px;
+    width: 500px;
+    height: 500px;
+    background: url('images/popup_background.png');
+    background-size: cover;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+    pointer-events: none;
+    z-index: 999;
+}
+
+.imageWindow p {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 800;
+    color: #c9ff05;
+    padding: 35px;
+    top: 1px;
+    left: 82px; 
+    text-align: left;
+    z-index: 999;
+
+}
+
+.imageWindow img {
+    position: relative;
+    padding: 20px;
+    top: 81px;
+    left: 82px; 
+    width: 380px;
+    height: 380px;
+    z-index: 999;
+
+}
+
+.copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #d5e4ea; /* Adjust the text color as needed */
+    position: absolute;
+    bottom: 25px; /* Adjust the distance from the bottom as needed */
+    right: 2%; /* Adjust the distance from the left as needed */
+}
