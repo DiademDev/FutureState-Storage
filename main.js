@@ -71,7 +71,7 @@ pictos[3].addEventListener('click', () => {
 // Show coordsButtons 17-21 when picto4 is clicked
 pictos[4].addEventListener('click', () => {
     coordsButtons.forEach((button, index) => {
-        button.style.display = index >= 19 && index < 22 ? 'block' : 'none';
+        button.style.display = index >= 19 && index < 24 ? 'block' : 'none';
     });
 });
 
