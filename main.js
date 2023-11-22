@@ -23,21 +23,30 @@ const images = [
 ];
 
 const texts = [
-    'Sky Sign',
-    'Main Identification Signage',
-    'Interpretive',
-    'Vertical Garden',
-    'Swales',
+    'Roadside Line Marking',
+    'Main ID Sign',
+    'Base Building Colour Palette',
+    'Branded Graphic System',
+    'Main ID Monolith',
+    'Unit Numbering',
+    'Line Marking',
+    'RAP: Acknowledge to Country',
+    'Main Directional Sign',
+    'Murals',
+    'Planting & Tree Cover',
     'Permeable Paving',
-    'Tree Guards',
-    'Living Pergola',
-    'Facade',
-    'Branded Portico',
-    'Interpretive',
-    'Outdoor Dining',
-    'Bike Racks',
-    'Brand Text 14',
-    'Brand Text 15'
+    'Vertical Tensile Garden',
+    'Woody Meadows',
+    'Living Pergola with Outdoor Settings',
+    'Branded Tree Guards',
+    'Branded Office Entrance Portico',
+    'Branded Bollard System',
+    'Branded Facade System',
+    'Fitness Station',
+    'Refresh Station',
+    'Waste Management',
+    'EV Charging',
+    'Shade Structure'
 ];
 
 // Show the first 5 coordsButtons when the first picto is clicked
