@@ -20,6 +20,16 @@ const images = [
     'images/image_13.png',
     'images/image_14.png',
     'images/image_15.png',
+    'images/image_16.png',
+    'images/image_17.png',
+    'images/image_18.png',
+    'images/image_19.png',
+    'images/image_20.png',
+    'images/image_21.png',
+    'images/image_22.png',
+    'images/image_23.png',
+    'images/image_24.png',
+    'images/image_25.png',
 ];
 
 const texts = [
