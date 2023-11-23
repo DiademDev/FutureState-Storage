@@ -35,11 +35,11 @@ const images = [
 const texts = [
     'Roadside Line Marking',
     'Main ID Sign',
-    'Base Building Colour Palette',
+    'Extended Colour Palette',
     'Branded Graphic System',
     'Main ID Monolith',
     'Unit Numbering',
-    'Line Marking',
+    'Wayfinding Line Marking',
     'RAP: Acknowledge to Country',
     'Main Directional Sign',
     'Murals',
@@ -50,7 +50,7 @@ const texts = [
     'Living Pergola with Outdoor Settings',
     'Branded Tree Guards',
     'Branded Office Entrance Portico',
-    'Branded Bollard System',
+    'Built Form Outdoor Social',
     'Branded Facade System',
     'Fitness Station',
     'Refresh Station',
@@ -94,12 +94,12 @@ pictos[4].addEventListener('click', () => {
     });
 });
 
-// // Show coordsButtons 21-25 when picto4 is clicked
-// pictos[5].addEventListener('click', () => {
-//     coordsButtons.forEach((button, index) => {
-//         button.style.display = index >= 21 && index < 25 ? 'block' : 'none';
-//     });
-// });
+// Show coordsButtons 21-25 when picto4 is clicked
+pictos[5].addEventListener('click', () => {
+    coordsButtons.forEach((button, index) => {
+        button.style.display = 'none';
+    });
+});
 
 pictos.forEach((picto, index) => {
     picto.addEventListener('mouseenter', () => {
