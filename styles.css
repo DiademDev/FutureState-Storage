@@ -166,12 +166,14 @@ h1 {
     left: auto;
     right: 55px; /* Adjust the right position as needed */
     bottom: 472px; /* Adjust the bottom position as needed */
+    z-index: 999999;
 }
 
 .imageWindow.bottom-right {
     left: auto;
     right: 60px; /* Adjust the right position as needed */
     bottom: 62px; /* Adjust the bottom position as needed */
+    z-index: 999999;
 }
 
 .imageWindow p {
@@ -184,7 +186,7 @@ h1 {
     top: 1px;
     left: 82px; 
     text-align: left;
-    z-index: 999;
+    z-index: 999999;
 
 }
 
@@ -195,7 +197,7 @@ h1 {
     left: 82px; 
     width: 380px;
     height: 380px;
-    z-index: 999;
+    z-index: 999999;
 
 }
 
